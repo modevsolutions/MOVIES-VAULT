@@ -307,8 +307,11 @@ footer {
   width: 90%;
   max-width: var(--max-width);
   margin: 0 auto;
-  color: gold;
+  color: #f9da8b;
   text-align: center;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+footer a {
+  color: gold;
 }

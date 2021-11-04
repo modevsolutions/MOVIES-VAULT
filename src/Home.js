@@ -11,7 +11,11 @@ const Home = () => {
       <Movies />
       {!loading && (
         <footer>
-          <h4>App Developed by Modevsolutions || Api : OMDB</h4>
+          <h4>
+            App Developed by{' '}
+            <a href='https://www.modevsolutions.com'>Modevsolutions</a> || Api :
+            OMDB
+          </h4>
         </footer>
       )}
     </main>
