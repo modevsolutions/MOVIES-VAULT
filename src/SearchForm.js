@@ -13,7 +13,7 @@ const SearchForm = () => {
       <div className='form-hero'>
         <div className='hero-center'>
           <form className='search-form' onSubmit={(e) => e.preventDefault()}>
-            <h2 className='hero-title'>search movies</h2>
+            <h2 className='hero-title'>movies vault</h2>
             <input
               type='text'
               className='form-input'
@@ -25,6 +25,7 @@ const SearchForm = () => {
             <div className='hero-info'>
               Title || Released || Runtime || Actors || Country || Genre || Plot
               || Writer || Awards
+              <p>click poster for more details</p>
             </div>
           </form>
         </div>

@@ -153,14 +153,15 @@ Search
 .hero-info {
   color: gold;
   width: 80%;
-
   letter-spacing: var(--spacing);
+}
+.hero-info p {
+  color: green;
 }
 .search-form {
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
-  /* margin-bottom: 3rem; */
 }
 .search-form h2 {
   color: gold;

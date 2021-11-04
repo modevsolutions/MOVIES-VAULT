@@ -1,6 +1,5 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
 import useFetch from './useFetch';
-// make sure to use https
 
 const AppContext = React.createContext();
 
@@ -16,7 +15,7 @@ const AppProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
-// make sure use
+
 export const useGlobalContext = () => {
   return useContext(AppContext);
 };

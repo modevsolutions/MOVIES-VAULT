@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+
 const API_ENDPOINT = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_MOVIE_API_KEY}`;
 
 const useFetch = (URL) => {
   const [loading, setLoading] = useState(true);
-  const [movies, setMovies] = useState([]);
-  const [movie, setMovie] = useState({});
-  // const [inputValue, setInputValue] = useState('squid');
+  const [movies, setMovies] = useState(null);
   const [error, setError] = useState({ response: true, msg: '' });
 
   const fetchMovies = async (url) => {
@@ -30,15 +28,11 @@ const useFetch = (URL) => {
   useEffect(() => {
     fetchMovies(`${API_ENDPOINT}${URL}`);
   }, [URL]);
-  // &s=${inputValue}
   return {
     loading,
     movies,
-    movie,
-    // inputValue,
     error,
     fetchMovies,
-    // setInputValue,
     setLoading,
   };
 };
