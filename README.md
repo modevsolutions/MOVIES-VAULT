@@ -9,8 +9,8 @@
 - [Author](https://github.com/modevsolutions/MOVIES-VAULT/#author)
 ## OVERVIEW
 ### About Movies Vault
-Movies Vault is an App that allow users to search for different genre of movies from around the world  
-Users are avail with detailed informations about the movie of their choice. The app is responsive  
+Movies Vault is an app that allows users to search for different genres of movies from around the world
+Users are avail with detailed information about the movie of their choice. The app is responsive
 and optimized for all screen size
 ### Screen Shots
 ![Movie screenshot](https://github.com/modevsolutions/MOVIES-VAULT/blob/main/src/movie-1.png) ![ MOVIE screenshot](https://github.com/modevsolutions/MOVIES-VAULT/blob/main/src/movie-2.png)
