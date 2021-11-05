@@ -15,7 +15,7 @@ and optimized for all screen size
 ### Screen Shots
 ![Movie screenshot](https://github.com/modevsolutions/MOVIES-VAULT/blob/main/src/movie-1.png) ![ MOVIE screenshot](https://github.com/modevsolutions/MOVIES-VAULT/blob/main/src/movie-2.png)
 ### Link
-- [live site](https://movies-vault.netlify.app/)
+- [live site](https://moviesvault.modevsolutions.com/)
 ## Coding Process
 #### Built With
 - HTML
