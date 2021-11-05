@@ -21,6 +21,7 @@ and optimized for all screen size
 - HTML
 - CSS 
 - REACT
+- OMBDAPI
 ## RESOURCES
 - [OMDBApi](http://www.omdbapi.com/)
 ## AUTHOR
