@@ -164,7 +164,7 @@ Search
   max-width: var(--max-width);
   margin: 0 auto;
 }
-.search-form h2 {
+.search-form h1 {
   color: gold;
 }
 .form-input {
