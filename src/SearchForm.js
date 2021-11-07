@@ -13,7 +13,7 @@ const SearchForm = () => {
       <div className='form-hero'>
         <div className='hero-center'>
           <form className='search-form' onSubmit={(e) => e.preventDefault()}>
-            <h2 className='hero-title'>movies vault</h2>
+            <h1 className='hero-title'>movies vault</h1>
             <input
               type='text'
               className='form-input'
